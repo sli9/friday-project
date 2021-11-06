@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Regist = () => {
+export const Regist = () => {debugger
   return <div>
       Regist
   </div>

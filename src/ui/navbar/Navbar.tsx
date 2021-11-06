@@ -11,7 +11,7 @@ const Navbar = () => {
             <NavLink to='/login'>Login</NavLink>
         </div>
         <div className={classes.item}>
-            <NavLink to='/regist'>Regist</NavLink>
+            <NavLink to='/regist'>Registry</NavLink>
         </div>
         <div className={classes.item}>
             <NavLink to='/passwordRecovery'>PasswordRecovery</NavLink>
