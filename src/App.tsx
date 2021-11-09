@@ -24,7 +24,7 @@ function App() {debugger
                 <Route path='/passwordRecovery' element={<PasswordRecovery/>} />
                 <Route path='/passwordNew' element={<PasswordNew/>} />
                 <Route path='/superComponents' element={<SuperComponents/>} />
-                <Route path='/error' element={<Error/>} />
+                <Route path='/*' element={<Error/>} />
             </Routes>
         </div>
     );
