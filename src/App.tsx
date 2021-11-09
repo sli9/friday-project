@@ -8,6 +8,7 @@ import {PasswordNew} from "./ui/registration/password/PasswordNew";
 import {SuperComponents} from "./ui/components/superComponents/SuperComponents";
 import {Regist} from "./ui/registration/Regist";
 import {PasswordRecovery} from "./ui/registration/password/PasswordRecovery";
+import {Error} from "./ui/components/error/Error";
 
 function App() {debugger
 
@@ -23,6 +24,7 @@ function App() {debugger
                 <Route path='/passwordRecovery' element={<PasswordRecovery/>} />
                 <Route path='/passwordNew' element={<PasswordNew/>} />
                 <Route path='/superComponents' element={<SuperComponents/>} />
+                <Route path='/error' element={<Error/>} />
             </Routes>
         </div>
     );
